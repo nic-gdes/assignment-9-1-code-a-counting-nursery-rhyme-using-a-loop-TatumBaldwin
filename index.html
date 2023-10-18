@@ -14,10 +14,78 @@
 
 <!-- javascript -->
 <script>
-    
+
+var verseOne = " green and speckled frogs sitting on a speckled log, eating the most delicious bugs, yum, yum. One jumped into the pool, where it was nice and cool"
+var verseTwo = "Now there are just "
+var verseThree = " speckled frogs, glub, glub"
+var alternateVerseTwo = "Now there's only "
+var alternateVerseThree = " speckled frog, glub, glub"
+var lastVerse = "He jumped into the pool, where it was nice and cool, now there are no more speckled frogs"
+
+// there are 5 frogs sitting on a log, eating bugs
+    for (let i = 5; i > 1; i--) {
+        console.log(i + verseOne);
+
+// one hopped off and now there are 4
+        if (i === 5) {
+            console.log(verseTwo + 4 + verseThree);
+        }
+
+// one hopped off and now there are 3
+        if (i === 4) {
+            console.log(verseTwo + 3 + verseThree);
+        }
+
+// one hopped off and now there are 2
+        if (i === 3) {
+            console.log(verseTwo + 2 + verseThree);
+        }
+
+// one hopped off and now there is 1
+        if (i === 2) {
+            console.log(alternateVerseTwo + 1 + alternateVerseThree);
+        }
+
+// one hopped off and now there is 0
+    }
+    console.log(lastVerse);
 
 
+
+    //the actual lyrics:
+// Five green and speckled frogs
+// Sitting on a speckled log
+// Eating the most delicious bugs, yum, yum
+// One jumped into the pool
+// Where it was nice and cool
+// Now there are just four speckled frogs, glub, glub
+
+// Four green and speckled frogs
+// Sitting on a speckled log
+// Eating the most delicious bugs, yum, yum
+// One jumped into the pool
+// Where it was nice and cool
+// Now there are just three speckled frogs, glub, glub
+
+// Three green and speckled frogs
+// Sitting on a speckled log
+// Eating the most delicious bugs, yum, yum
+// One jumped into the pool
+// Where it was nice and cool
+// Now there are just two speckled frogs, glub, glub
+
+// Two green and speckled frogs
+// Sitting on a speckled log
+// Eating the most delicious bugs, yum, yum
+// One jumped into the pool
+// Where it was nice and cool
+
+// Now there's only one speckled frog, glub, glub
+// He jumped into the pool
+// Where it was nice and cool
+// Now there are no more speckled frogs
 </script>
 
 </body>
 </html>
+
