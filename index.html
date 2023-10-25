@@ -5,55 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nursery Rhyme</title>
     <style>
-        div {
-            margin: 10px;
+        li {
+            text-decoration: none;
+            list-style: none;
+            font-size: 40px;
+            font-family: impact;
+            margin: 20px;
         }
+
+        .items {
+            color: green;
+        }
+
     </style>
 </head>
 <body>
     
-
-
-        the actual lyrics:
-    <p>    
-        <div>
-        Five green and speckled frogs
-        Sitting on a speckled log
-        Eating the most delicious bugs, yum, yum
-        One jumped into the pool
-        Where it was nice and cool
-        Now there are just four speckled frogs, glub, glub
-        </div>
-        <div>
-        Four green and speckled frogs
-        Sitting on a speckled log
-        Eating the most delicious bugs, yum, yum
-        One jumped into the pool
-        Where it was nice and cool
-        Now there are just three speckled frogs, glub, glub
-        </div>
-        <div>
-        Three green and speckled frogs
-        Sitting on a speckled log
-        Eating the most delicious bugs, yum, yum
-        One jumped into the pool
-        Where it was nice and cool
-        Now there are just two speckled frogs, glub, glub
-        </div>
-        <div>
-        Two green and speckled frogs
-        Sitting on a speckled log
-        Eating the most delicious bugs, yum, yum
-        One jumped into the pool
-        Where it was nice and cool
-        </div>
-        <div>
-        Now there's only one speckled frog, glub, glub
-        He jumped into the pool
-        Where it was nice and cool
-        Now there are no more speckled frogs
-        </div>
-    </p>
+    <ul class="items">
+        <li class="changeColor" id="five">five</li>
+        <li class="changeColor" id="four">four</li>
+        <li class="changeColor" id="three">three</li>
+        <li class="changeColor" id="two">two</li>
+        <li class="changeColor" id="one">one</li>
+    </ul>
 
  <!-- javascript -->
     <script src="./script.js"></script>
